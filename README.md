@@ -70,3 +70,8 @@
 
 I treat my projects like products, not practice — clean code, real features, solid architecture 🚀
 
+
+![Omar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=omargamal1121&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=omargamal1121&layout=compact&theme=radical)
+
+
