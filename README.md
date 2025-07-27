@@ -50,7 +50,6 @@
 
 - ✅ Master backend development with enterprise standards
 - 🧠 Learn Cloud (Azure) & CI/CD
-- 🛫 Land a backend job abroad — especially in **Germany**
 - 💼 Build a solid portfolio with clean and scalable projects
 
 ---
