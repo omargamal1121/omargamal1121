@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Dynamic Typing Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00ADD8&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Omar+Gamal;Backend+Developer+%7C+.NET+Engineer;Building+Scalable+E-Commerce+APIs;Instructor+%7C+Freelancer+%7C+Problem+Solver" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00ADD8&center=true&vCenter=true&width=600&lines=Hi+👋+I'm+Omar+Gamal;Backend+Developer+%7C+.NET+Engineer;Building+Scalable+E-Commerce+APIs;Instructor+%7C+Freelancer+%7C+Problem+Solver" alt="Typing SVG" />
 
 </div>
 
@@ -145,7 +145,8 @@ Building a **production-ready** E-Commerce platform
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
-
+### Frontend Integration
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ### Currently Learning
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
@@ -196,7 +197,7 @@ I'm actively expanding my expertise into **cloud computing** with a focus on **M
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### 🛍️ Fashion E-Commerce API
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/omargamal1121/Fashion)
@@ -224,7 +225,7 @@ A comprehensive E-Commerce backend demonstrating enterprise-level architecture a
 This project showcases the kind of production-ready systems I build for clients — scalable, secure, and maintainable.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### 🏋️ Ava-Fit E-Commerce API
 [![GitHub](https://img.shields.io/badge/Coming_Soon-181717?style=for-the-badge&logo=github)](https://github.com/omargamal1121)
@@ -253,7 +254,7 @@ Demonstrate enterprise-grade system design and cloud deployment skills for inter
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### ✅ To-Do List Application
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/omargamal1121/To-Do-List)
@@ -277,7 +278,7 @@ A clean, role-based task management system built with ASP.NET MVC architecture.
 Understanding MVC architecture and building maintainable web applications.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### 💼 Freelance Projects
 
