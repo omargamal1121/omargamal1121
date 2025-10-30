@@ -375,7 +375,7 @@ I'm actively seeking **international backend development opportunities** where I
 Whether you're looking for a **backend developer**, want to **collaborate on a project**, or just want to **discuss .NET architecture** — I'd love to hear from you!
 
 [![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Omargamal1132004@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-gamal-761590256)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-gamal-226232292/)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omargamal1121)
 
 ### 💬 Available for freelance projects and full-time opportunities!
