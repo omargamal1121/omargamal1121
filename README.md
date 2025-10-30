@@ -98,10 +98,7 @@ Teaching at **3C School**
 - Mentoring students
 
 </td>
-<td width="33%" align="center">
 
-
-</tr>
 </table>
 
 ### 📌 Key Accomplishments
@@ -192,8 +189,8 @@ I'm actively expanding my expertise into **cloud computing** with a focus on **M
 <tr>
 <td width="50%">
 
-### 🛍️ Fashion E-Commerce API
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/omargamal1121/Fashion)
+### 🛍️ Fashion E-Commerce API (freelance Paid Project)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/omargamal1121/E-Commerce-API-V1)
 
 **Production-Grade REST API**
 
@@ -271,30 +268,6 @@ A clean, role-based task management system built with ASP.NET MVC architecture.
 Understanding MVC architecture and building maintainable web applications.
 
 </td>
-<td width="50%">
-
-### 💼 Freelance Projects
-
-**E-Commerce Solutions for International Clients**
-
-As a freelance backend developer, I've delivered production-ready APIs with:
-- 🛒 Complete shopping cart & checkout flows
-- 💳 Payment gateway integrations
-- 📦 Order management systems
-- 👥 User authentication & profiles
-- 📊 Admin dashboards
-- 📧 Email notifications
-- 🔍 Product search & filtering
-
-**Technologies:** `.NET` `MySQL` `Redis` `APIs` `Third-party integrations`
-
----
-
-**Impact:**  
-Built systems handling real business operations and customer transactions in production environments.
-
-</td>
-</tr>
 </table>
 
 ---
