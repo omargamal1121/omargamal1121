@@ -1,29 +1,97 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00ADD8&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Omar+Gamal;Backend+Developer+%7C+E-Commerce+%7C+Instructor" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,100:512BD4&height=200&section=header&text=Omar%20Gamal&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=.NET%20Backend%20Engineer&descAlignY=58&descSize=22" width="100%" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-gamal-backend)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Omargamal1132004@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omargamal1121)
-
-### 🎯 .NET Backend Engineer &nbsp;·&nbsp; E-Commerce &amp; SaaS Integrations &nbsp;·&nbsp; Instructor
-
-I build backend systems that stay correct under real load — production APIs for four clients, handling live payments, loyalty points, and webhook syncs with third-party platforms.
-
-</div>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1200&color=00ADD8&center=true&vCenter=true&width=800&lines=4+production+systems+shipped+for+real+clients;Idempotent+webhooks+%C2%B7+Concurrency-safe+payments;Redis+caching%3A+503ms+%E2%86%92+246ms;Open+to+remote+backend+roles" />
 
 <br>
 
-<div align="center">
-
-| 🚀 4 systems live | 💳 12,000+ EGP processed | ⚡ 60% less DB load | 🧾 idempotent webhooks | 🎓 20+ students taught |
-|:---:|:---:|:---:|:---:|:---:|
+[![Portfolio](https://img.shields.io/badge/Portfolio-00ADD8?style=for-the-badge&logo=vercel&logoColor=white)](https://omar-gamal-eng.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-gamal-eng)
+[![Gmail](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omar.gamal.eng@gmail.com)
 
 </div>
 
 ---
 
-## 📁 Projects
+## ⚡ Recruiter Snapshot
+
+<div align="center">
+
+| | |
+|:--|:--|
+| **🎯 Role** | .NET Backend Engineer (ASP.NET Core, Clean Architecture, CQRS) |
+| **🏭 Focus** | E-commerce, payments, and third-party SaaS integrations |
+| **📍 Location** | Cairo, Egypt |
+| **🌍 Work mode** | Remote (currently working remotely with clients) |
+| **⏳ Experience** | 1+ year shipping production backends (since Jul 2025) |
+| **🎓 Education** | B.Sc. Computer Science, Benha University (May 2026) |
+| **🗣️ Languages** | Arabic (native) · English (B2) |
+| **📩 Contact** | omar.gamal.eng@gmail.com |
+
+</div>
+
+---
+
+## 📈 Impact in Numbers
+
+<div align="center">
+
+| 🚀 **4** | ⚡ **60%** | ⏱️ **503 → 246 ms** | 💳 **0** | 🎓 **20+** |
+|:---:|:---:|:---:|:---:|:---:|
+| production systems | less DB load (Redis) | best-seller endpoint | critical payment failures | students taught |
+
+</div>
+
+---
+
+## 🧭 What I Bring to a Team
+
+- 🔒 **Correctness under concurrency**: pessimistic locking (`SELECT FOR UPDATE`) so a loyalty code can never be redeemed twice
+- 🧾 **Reliable integrations**: idempotent webhook handling (Paymob, Rekaz) with Hangfire retries, safe under retries and out-of-order delivery
+- ⚡ **Performance**: Redis caching that cut DB load by 60%
+- 🏗️ **Maintainable architecture**: Clean Architecture, CQRS/MediatR, Repository, Unit of Work, Specification
+- 🚢 **Ships end to end**: from API design to Docker, GitHub Actions CI/CD, and production deployment
+- 🤝 **Works with other teams**: led backend for DentalHub, collaborating with frontend and AI teams through OpenAPI contracts
+- 🧑‍🏫 **Communicates clearly**: sole curriculum author teaching 20+ students, which shows in my docs and code reviews
+
+---
+
+## 🏆 Experience
+
+<table>
+<tr>
+<td width="50%">
+
+### 💼 Backend Developer (Contract)
+**R&S Fashion · Ziko Bags Store · Al-Ameen Cables** · Remote
+*Jul 2025 — Present*
+
+- Built and deployed production REST APIs for three freelance clients using ASP.NET Core, Clean Architecture, and CQRS
+- Shipped **ElAmeenRewards**, a QR-based loyalty API with concurrency-safe redemption, fraud detection, and audit logging, plus a live Android app on Google Play
+- Delivered Ziko Bags Store end to end: 131 products, 37 confirmed orders, 12,000+ EGP via Paymob with zero critical payment failures
+- Cut DB load by 60% and API latency from 503ms to 246ms with Redis caching
+- Integrated Paymob webhooks with idempotency and Hangfire retry jobs, preventing duplicate payments
+
+</td>
+<td width="50%">
+
+### 🧑‍🏫 Programming Instructor
+**3C School** · Remote
+*May 2025 — Present*
+
+- Designed and delivered a project-based HTML, CSS, and Python curriculum to **20+ students across 10+ cohorts**
+- Sole curriculum author: lesson plans, assignments, and feedback loops built from scratch
+- Iterated content each cohort based on student outcomes
+- Students shipped and deployed web projects by course end
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📁 Featured Projects
 
 <table>
 <tr>
@@ -35,15 +103,14 @@ I build backend systems that stay correct under real load — production APIs fo
 
 **Production Freelance Project**
 
-Corporate site plus a QR-based loyalty app: customers scan a code to earn points and confirm a cable is genuine. Redemption is guarded with pessimistic row locking so two scans of the same code can never both succeed.
+Corporate site plus a QR-based loyalty app: customers scan a code to earn points and confirm a cable is genuine.
 
-**Highlights:**
-- 🔒 Pessimistic locking (`SELECT FOR UPDATE`) for concurrency-safe redemption
+- 🔒 Pessimistic locking so two scans of one code can never both succeed
 - 🚨 Fraud detection & audit logging
 - 🖨️ Batch QR PDF export (QuestPDF)
 - 📱 Live Android app on Google Play
 
-**Stack:** `ASP.NET Core` `Clean Architecture` `CQRS` `MySQL` `IMemoryCache`
+`ASP.NET Core` `Clean Architecture` `CQRS` `MySQL` `IMemoryCache`
 
 </td>
 <td width="50%">
@@ -51,17 +118,16 @@ Corporate site plus a QR-based loyalty app: customers scan a code to earn points
 ### 🥊 Pro-Fighter
 ![Status](https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge)
 
-**Gym Management Platform — Rekaz SaaS Integration**
+**Gym Management Platform, Rekaz SaaS Integration**
 
-Gym management backend integrating the Rekaz platform, built around a resilient webhook-driven subscription sync that stays correct even when webhooks retry or arrive out of order.
+Backend built around a webhook-driven subscription sync that stays correct when webhooks retry or arrive out of order.
 
-**Highlights:**
-- 🔄 Webhook-driven subscription sync (thin-webhook / fetch-full-state pattern)
-- 🧾 Idempotent Inbox pattern for safe webhook retries
-- 🤖 AI-powered fitness & nutrition plan generator (OpenAI)
-- 🔔 Firebase push notifications, Flutter mobile client
+- 🔄 Thin-webhook / fetch-full-state pattern
+- 🧾 Idempotent Inbox pattern
+- 🤖 AI fitness & nutrition plan generator (OpenAI)
+- 🔔 Firebase push notifications, Flutter client
 
-**Stack:** `ASP.NET Core` `CQRS/MediatR` `Hangfire` `Rekaz API` `Firebase` `Flutter`
+`ASP.NET Core` `CQRS/MediatR` `Hangfire` `Rekaz API` `Firebase` `Flutter`
 
 </td>
 </tr>
@@ -72,36 +138,34 @@ Gym management backend integrating the Rekaz platform, built around a resilient 
 [![Live](https://img.shields.io/badge/Live_Site-4CAF50?style=for-the-badge&logoColor=white)](https://r-and-s-one.vercel.app/)
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/omargamal1121/E-Commerce-API-V1)
 
-**Production Freelance Project — .NET 9**
+**Production Freelance Project, .NET 9**
 
 Fully deployed e-commerce backend serving real users with live transactions.
 
-**Highlights:**
-- ⚡ Redis caching — 60% reduction in DB load
-- 🔐 JWT authentication & role-based authorization
-- 🧪 xUnit tests across auth & role management flows
+- ⚡ Redis: 60% less DB load, 503ms → 246ms
+- 🔐 JWT auth & role-based authorization
+- 🧪 xUnit tests on auth & role flows
 - 🏗️ Manual CQRS across 8 domains
 
-**Stack:** `.NET 9` `ASP.NET Core` `EF Core` `MySQL` `Redis` `Hangfire` `Paymob`
+`.NET 9` `EF Core` `MySQL` `Redis` `Hangfire` `Paymob`
 
 </td>
 <td width="50%">
 
 ### 🛒 Bags-Shop API (Ziko Store)
 [![Live Store](https://img.shields.io/badge/Live_Store-4CAF50?style=for-the-badge&logoColor=white)](https://ziko-store.vercel.app/)
-[![API Docs](https://img.shields.io/badge/API_Docs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](http://bags-shop.runasp.net/swagger)
+[![API Docs](https://img.shields.io/badge/API_Docs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://bags-shop.runasp.net/swagger)
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/omargamal1121/Bags-Shop-ApI)
 
-**Production Freelance Project — .NET 10**
+**Production Freelance Project, .NET 10**
 
-Powers a live online store: 131 products, 37 confirmed orders, 12,000+ EGP processed via Paymob with zero critical payment failures.
+Powers a live store: 131 products, 37 confirmed orders, 12,000+ EGP processed.
 
-**Highlights:**
-- 🏗️ CQRS with MediatR for clean separation
-- 💳 Paymob gateway + idempotent webhook handling
+- 💳 Paymob gateway + idempotent webhooks
+- 🏗️ CQRS with MediatR
 - 🔄 Hangfire discount scheduler & order jobs
 
-**Stack:** `.NET 10` `ASP.NET Core` `EF Core` `SQL Server` `MediatR` `Paymob`
+`.NET 10` `EF Core` `SQL Server` `MediatR` `Paymob`
 
 </td>
 </tr>
@@ -113,45 +177,11 @@ Powers a live online store: 131 products, 37 confirmed orders, 12,000+ EGP proce
 [![API Docs](https://img.shields.io/badge/API_Docs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://dental-hup1.runasp.net/swagger/index.html)
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/omargamal1121/Dental-Hub)
 
-**Backend Lead — Cross-Institutional Dental Collaboration Platform (.NET 9)**
+**Backend Lead, Cross-Institutional Dental Collaboration Platform (.NET 9)**
 
-Led backend development for a platform serving doctors, students, patients, and administrators — patient case management, consultation scheduling, and 20+ documented REST endpoints, containerized and deployed via GitHub Actions.
+Platform for doctors, students, patients, and administrators: patient case management, consultation scheduling, JWT auth with role-based authorization, Cloudinary media storage, Redis caching, Hangfire jobs, and 20+ documented REST endpoints. Multi-stage Docker builds, Docker Compose, and GitHub Actions CI/CD to production.
 
-**Stack:** `.NET 9` `ASP.NET Core` `EF Core` `Redis` `Docker` `GitHub Actions`
-
-</td>
-</tr>
-</table>
-
----
-
-## 🏆 Experience
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-### 💼 Freelance Backend Developer
-*Jul 2025 — Present*
-
-Built production-grade backends for **three real clients**
-- R&S Fashion, Ziko Bags Store, Al-Ameen Cables
-- Scalable REST APIs, Clean Architecture, CQRS
-- Payment gateway integrations (Paymob)
-- Redis caching (60% DB load reduction, 503ms → 246ms)
-- QR-based loyalty system with fraud detection
-
-</td>
-<td width="50%" align="center">
-
-### 🧑‍🏫 Programming Instructor
-*May 2025 — Present*
-
-Teaching at **3C School Egypt**
-- HTML, CSS & Python fundamentals
-- Hands-on project-based curriculum
-- 20+ students across 10+ cohorts
-- Practical, real-world exercises
+`.NET 9` `EF Core` `Redis` `Hangfire` `Cloudinary` `Docker` `GitHub Actions`
 
 </td>
 </tr>
@@ -159,100 +189,60 @@ Teaching at **3C School Egypt**
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
-**Backend:** ![.NET](https://img.shields.io/badge/.NET_9%2F10-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+<img src="https://skillicons.dev/icons?i=cs,dotnet,python,js,mysql,redis,docker,githubactions,git,postman,azure,rabbitmq,firebase,flutter&perline=7" />
 
-**Data:** ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+<br><br>
 
-**Architecture:** ![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-00ADD8?style=flat-square&logoColor=white) ![CQRS](https://img.shields.io/badge/CQRS_MediatR-FF4081?style=flat-square&logoColor=white)
-
-**Integrations:** ![Paymob](https://img.shields.io/badge/Paymob-1E90FF?style=flat-square&logoColor=white) ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase_FCM-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-
-**DevOps:** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Hangfire](https://img.shields.io/badge/Hangfire-00ADD8?style=flat-square&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
-
-**Currently learning:** ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+**Backend:** ASP.NET Core · EF Core · RESTful API design · Hangfire · MediatR
+**Architecture:** Clean Architecture · CQRS · Repository · Unit of Work · Specification · SOLID · Dependency Injection
+**Data:** SQL Server · MySQL · Redis · T-SQL · Query optimization
+**Testing:** xUnit · NUnit · Moq · Integration testing
+**Integrations:** Paymob · Cloudinary · Firebase Cloud Messaging · Rekaz API · OpenAI API · MailKit
+**DevOps:** Docker · GitHub Actions · Swagger/Scalar · Vercel
+**Currently learning:** Azure · RabbitMQ
 
 </div>
 
 ---
 
-<details>
-<summary><b>👨‍💻 About Me — how I approach backend work</b></summary>
-<br>
+## 🎓 Education
 
-```csharp
-public class OmarGamal : BackendDeveloper
-{
-    public string CurrentRole    { get; set; } = "Freelance .NET Backend Developer";
-    public string SecondRole     { get; set; } = "Programming Instructor @ 3C School";
+**B.Sc. Computer Science**, Benha University, Faculty of Science (May 2026), GPA 3.1/4.0
+Coursework: Data Structures, Algorithms, Database Systems, Software Engineering, Operating Systems, OOP
 
-    public List<string> CoreExpertise { get; set; } = new()
-    {
-        "ASP.NET Core & .NET 9/10",
-        "Entity Framework Core",
-        "Clean Architecture & CQRS",
-        "RESTful API Development",
-        "Webhook-Driven SaaS Integrations",
-        "E-Commerce System Design"
-    };
+---
 
-    public string Mission { get; set; } = "Build production-grade systems for real clients";
-}
-```
-
-I believe in:
-- 🏗️ **Clean Architecture** — systems that scale and evolve gracefully
-- 🔐 **Security-first design** — proper authentication, authorization, and data protection
-- ⚡ **Performance optimization** — smart caching and background job processing
-- 🔄 **Resilient integrations** — idempotent webhook handling and concurrency-safe operations
-- 📝 **Code quality** — maintainable, tested, and well-documented code
-
-</details>
-
-<details>
-<summary><b>📊 GitHub Statistics</b></summary>
-<br>
+## 📊 GitHub Activity
 
 <div align="center">
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=omargamal1121&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omargamal1121&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=omargamal1121&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<img src="https://streak-stats.demolab.com/?user=omargamal1121&theme=tokyonight&hide_border=true" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=omargamal1121&theme=tokyo-night&hide_border=true&area=true" width="100%" />
 
 </div>
 
-</details>
-
-<details>
-<summary><b>🎯 2026 Goals</b></summary>
-<br>
-
-| Now | Mid-Year | End of Year |
-|-----|----------|-------------|
-| 🐳 Docker on all projects | ☁️ Azure AZ-900 certification | 🔄 RabbitMQ in production |
-| 🔄 GitHub Actions CI/CD everywhere | 📈 Expand freelance portfolio | 🏗️ Microservices fundamentals |
-| 🔐 OAuth2 & ASP.NET Identity | 🌐 Open-source contributions | 🎓 Master's application (Germany) |
-
-</details>
-
 ---
 
-## 📫 Let's Connect
+## 📫 Let's Work Together
 
 <div align="center">
 
-Actively seeking **remote backend roles** — e-commerce or fintech, on a team that cares about correctness under real load.
+**Open to remote backend roles** in e-commerce, fintech, or SaaS, on a team that cares about correctness under real load.
 
-[![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Omargamal1132004@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-gamal-backend)
-[![GitHub](https://img.shields.io/badge/Follow_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omargamal1121)
-
-![Profile Views](https://komarev.com/ghpvc/?username=omargamal1121&color=00ADD8&style=for-the-badge)
+[![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omar.gamal.eng@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-gamal-eng)
+[![Portfolio](https://img.shields.io/badge/View_Portfolio-00ADD8?style=for-the-badge&logo=vercel&logoColor=white)](https://omar-gamal-eng.vercel.app)
 
 *"Every project is a product, not just practice."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,100:00ADD8&height=120&section=footer" width="100%" />
 
 </div>
